@@ -152,7 +152,7 @@ This way, you won't have to manually do the copying and creating environment var
 DKN_WALLET_SECRET_KEY=ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
 ```
 
-### 4. Setup LLM Provider
+### 4. Setup LLM Provider [Get Your API Key](docs/NODE_SPECS.md)
 
 For the final step, we need to make sure we can serve LLM requests.
 
