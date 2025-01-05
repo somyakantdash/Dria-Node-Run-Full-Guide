@@ -12,7 +12,12 @@ Depending the AI models of your choice, you may have to install software:
   ```sh
   ollama --version
   ```
+- **Ollama models**: For VPS and WSL(in windows)
 
+  ```sh
+  curl -fsSL https://ollama.com/install.sh | sh
+  ```
+  
 ### Hardware
 
 **To learn about hardware specifications such as required CPU and RAM, please refer to [node specifications](docs/NODE_SPECS.md).**
@@ -108,7 +113,7 @@ Download the appropriate ZIP file for your system using the commands below or fr
      - If it includes "x64" or refers to Intel or AMD, it is likely x86 (amd64).
      - If it mentions ARM, then it's an ARM processor.
 
-2. Download the ZIP file using a web browser or in PowerShell:
+2. Download the ZIP file using a web browser or in WSL:
 
    ```sh
    # for x64, use amd64
@@ -120,7 +125,7 @@ Download the appropriate ZIP file for your system using the commands below or fr
    curl -L -o dkn-compute-node.zip https://github.com/firstbatchxyz/dkn-compute-launcher/releases/latest/download/dkn-compute-launcher-linux-arm64.zip
    ```
 
-3. Unzip the downloaded file using File Explorer or in PowerShell:
+3. Unzip the downloaded file using File Explorer or in WSL:
    ```sh
    unzip dkn-compute-node.zip
    cd dkn-compute-node
