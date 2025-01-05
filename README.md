@@ -1,9 +1,5 @@
 # Dria-Node-Run-Full-Guide
 
-## Running the Compute Node
-
-Running a Dria Compute Node is pretty straightforward! You can either follow the guide here for all platforms, or follow a much-more user-friendly guide at <https://dria.co/guide> for MacOS in particular.
-
 ## Requirements
 
 ### Software
