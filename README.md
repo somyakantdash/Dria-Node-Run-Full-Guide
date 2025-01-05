@@ -186,75 +186,18 @@ GEMINI_API_KEY=<YOUR_KEY>
 > 
 > 45: Ollama | llama3.2:1b
 
-For the models that you choose (see list of models just below [here](#1-choose-models)) you can download them with same command. Note that if your model size is large, pulling them may take a while. For example:
+### Check ur Points
 
-```sh
-# example
-ollama pull llama3.1:latest
+Points - https://steps.leaderboard.dria.co/
+
+## 🔶For Next Day Run This Command (Windows)
+
+#1 Open WSL and Put this Command 
 ```
-
-#### Optional Services
-
-Based on presence of API keys, [Ollama Workflows](https://github.com/andthattoo/ollama-workflows/) may use more superior services instead of free alternatives, e.g. [Serper](https://serper.dev/) instead of [DuckDuckGo](https://duckduckgo.com/) or [Jina](https://jina.ai/) without rate-limit instead of with rate-limit. Add these within your `.env` as:
-
-```sh
-SERPER_API_KEY=<key-here>
-JINA_API_KEY=<key-here>
+cd dkn-compute-node
 ```
-
-## Usage
-
-**With all setup steps above completed, we are ready to start a node!** Either double-click the downloaded launcher `dkn-compute-launcher` app (`dkn-compute-launcher.exe` on Windows), or run it from the terminal from your file explorer, or use it from terminal (or `cmd/powershell` in Windows).
-
-See the available commands with:
-
-```sh
-# macos or linux
-./dkn-compute-launcher --help
+#2 Run a Node and Prepare Your Ethereum Wallet
 ```
-
-```sh
-# windows
-.\dkn-compute-launcher.exe --help
-```
-
-Then simply run the cli app, it will ask you to enter required inputs:
-
-```sh
-# macos or linux
 ./dkn-compute-launcher
 ```
-
-```sh
-# windows
-.\dkn-compute-launcher.exe
-```
-
-You will see logs of the compute node on the same terminal!
-
-You can stop the node as usual by pressing <kbd>Control + C</kbd>, or kill it from the terminal.
-
-### Choosing Models
-
-You will be asked to provide your choice of models within the CLI. You can also pass them from the command line using `-m` flags:
-
-```sh
-# macos or linux
-./dkn-compute-launcher -m=llama3.1:latest -m=gpt-4o-mini
-```
-
-```sh
-# windows
-.\dkn-compute-launcher.exe -m=llama3.1:latest -m=gpt-4o-mini
-```
-
-Available models can be seen within the launcher, or under [`ollama-workflows/models`](https://github.com/andthattoo/ollama-workflows/blob/main/src/program/models.rs).
-
-### Additional Static Nodes
-
-You can add additional relay nodes & bootstrap nodes from environment, using the `DKN_RELAY_NODES` and `DKN_BOOTSTRAP_NODES` variables respectively. Simply write the `Multiaddr` string of the static nodes as comma-separated values, and the compute node will pick them up at the start.
-
-```sh
-# dummy example
-DKN_BOOTSTRAP_NODES=/ip4/44.206.245.139/tcp/4001/p2p/16Uiu2HAm4q3LZU2TeeejKK4fff6KZdddq8Kcccyae4bbbF7uqaaa
-```
+#3 Setup LLM Provider
