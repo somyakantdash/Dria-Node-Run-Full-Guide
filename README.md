@@ -132,7 +132,7 @@ With our launcher, setting up the environment variables happen on the fly! The C
 
 This way, you won't have to manually do the copying and creating environment variables yourself, and instead let the CLI do it for you. You can move directly on to the [Usage](#usage) section.
 
-### 3. Run a NodePrepare Ethereum Wallet
+### 3. Run a Node and Prepare Your Ethereum Wallet
 
 ```sh
 # macos or linux
