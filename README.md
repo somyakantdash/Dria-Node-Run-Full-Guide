@@ -32,6 +32,14 @@ In general, if you are using Ollama you will need the memory to run large models
 
 To be able to run a node, we need to make a few simple preparations. Follow the steps below one by one.
 
+For VPS Only
+```
+apt install screen -y
+```
+```
+screen -S t3rn
+```
+
 ### 1. Download Files
 
 Download the appropriate ZIP file for your system using the commands below or from [your browser](https://github.com/firstbatchxyz/dkn-compute-launcher/releases). Make sure to replace the URL with the correct version for your operating system and architecture.
@@ -190,6 +198,15 @@ GEMINI_API_KEY=<YOUR_KEY>
 > 25: OpenRouter | qwq-32b-preview
 > 
 > 45: Ollama | llama3.2:1b
+
+For VPS Only
+```
+PRESS CTRL+A+D (to run ur node continuously)
+```
+For VPS Only (to check ur node again)
+```
+screen -r t3rn
+```
 
 ### Check ur Points
 
