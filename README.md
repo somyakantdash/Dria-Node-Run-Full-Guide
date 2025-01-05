@@ -144,7 +144,7 @@ This way, you won't have to manually do the copying and creating environment var
 ./dkn-compute-launcher
 ```
 
-> Note - Put Your Metamask Wallet Private Key
+> [!NOTE] Put Your Metamask Wallet Private Key
 > Dria makes use of the same Ethereum wallet, that is the recipient of your hard-earned rewards! Place your private key at `DKN_WALLET_SECRET_KEY` in `.env` without the `0x` prefix. It should look something like:
 
 ```sh
