@@ -15,7 +15,7 @@ Depending the AI models of your choice, you may have to install software:
 
 ### Hardware
 
-**To learn about hardware specifications such as required CPU and RAM, please refer to [node specifications](.docs/NODE_SPECS.md).**
+**To learn about hardware specifications such as required CPU and RAM, please refer to [node specifications](docs/NODE_SPECS.md).**
 
 In general, if you are using Ollama you will need the memory to run large models locally, which depend on the model's size that you are willing to. If you are in a memory-constrained environment, you can opt to use OpenAI models instead.
 
