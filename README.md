@@ -145,7 +145,8 @@ This way, you won't have to manually do the copying and creating environment var
 ```
 
 > [!NOTE] Put Your Metamask Wallet Private Key
-> Dria makes use of the same Ethereum wallet, that is the recipient of your hard-earned rewards! Place your private key at `DKN_WALLET_SECRET_KEY` in `.env` without the `0x` prefix. It should look something like:
+> 
+> Dria makes use of the same Ethereum wallet, that is the recipient of your hard-earned rewards! Place your private key at `DKN_WALLET_SECRET_KEY` without the `0x` prefix. It should look something like:
 
 ```sh
 DKN_WALLET_SECRET_KEY=ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
@@ -157,7 +158,7 @@ For the final step, we need to make sure we can serve LLM requests.
 
 #### For OpenAI
 
-If you will be using OpenAI to serve its models, you need to have an API key in the environment. Simply set the key within your `.env`:
+If you will be using OpenAI to serve its models, you need to have an API key in the environment.
 
 ```sh
 OPENAI_API_KEY=<YOUR_KEY>
@@ -169,16 +170,20 @@ First you have to install [Ollama](#requirements), if you haven't already! The c
 
 #### For Gemini
 
-If you will be using OpenAI to serve its models, you need to have an API key in the environment. Simply set the key within your `.env`:
+If you will be using OpenAI to serve its models, you need to have an API key in the environment.
 
 ```sh
 GEMINI_API_KEY=<YOUR_KEY>
 ```
 
 > I Am using These
+> 
 > 5:- OpenAI | o1-mini
+> 
 > 10: Gemini | gemini-1.5-flash
+> 
 > 25: OpenRouter | qwq-32b-preview
+> 
 > 45: Ollama | llama3.2:1b
 
 For the models that you choose (see list of models just below [here](#1-choose-models)) you can download them with same command. Note that if your model size is large, pulling them may take a while. For example:
