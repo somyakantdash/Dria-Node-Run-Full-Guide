@@ -27,9 +27,7 @@ In general, if you are using Ollama you will need the memory to run large models
 
 To be able to run a node, we need to make a few simple preparations. Follow the steps below one by one.
 
-### 1. Download [Launcher](https://github.com/firstbatchxyz/dkn-compute-launcher)
-
-We have a [cross-platform node launcher](https://github.com/firstbatchxyz/dkn-compute-launcher) to easily set up the environment and running the compute node. We will install that first.
+### 1. Download Files
 
 Download the appropriate ZIP file for your system using the commands below or from [your browser](https://github.com/firstbatchxyz/dkn-compute-launcher/releases). Make sure to replace the URL with the correct version for your operating system and architecture.
 
