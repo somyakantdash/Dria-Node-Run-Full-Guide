@@ -134,18 +134,6 @@ With our launcher, setting up the environment variables happen on the fly! The C
 
 This way, you won't have to manually do the copying and creating environment variables yourself, and instead let the CLI do it for you. You can move directly on to the [Usage](#usage) section.
 
-> If you would like to do this part manually, you can continue reading this section.
-
-#### Create `.env` File
-
-Dria Compute Node makes use of several environment variables. Let's create an `.env` file from the given example first.
-
-```sh
-cp .env.example .env
-```
-
-We will fill out the missing parts witin `.env` file in a moment.
-
 > [!NOTE]
 >
 > `DKN_ADMIN_PUBLIC_KEY` is used to verify that the tasks are given by certain nodes, so that your node does not work for tasks given to the network by untrusted people. You don't need to change this, simply copy and paste it to your `.env`.
