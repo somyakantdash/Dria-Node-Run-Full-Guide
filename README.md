@@ -134,17 +134,24 @@ With our launcher, setting up the environment variables happen on the fly! The C
 
 This way, you won't have to manually do the copying and creating environment variables yourself, and instead let the CLI do it for you. You can move directly on to the [Usage](#usage) section.
 
-### 3. Prepare Ethereum Wallet
+### 3. Run a NodePrepare Ethereum Wallet
 
-Dria makes use of the same Ethereum wallet, that is the recipient of your hard-earned rewards! Place your private key at `DKN_WALLET_SECRET_KEY` in `.env` without the `0x` prefix. It should look something like:
+```sh
+# macos or linux
+./dkn-compute-launcher
+```
+
+```sh
+# windows
+./dkn-compute-launcher
+```
+
+> Note - Put Your Metamask Wallet Private Key
+> Dria makes use of the same Ethereum wallet, that is the recipient of your hard-earned rewards! Place your private key at `DKN_WALLET_SECRET_KEY` in `.env` without the `0x` prefix. It should look something like:
 
 ```sh
 DKN_WALLET_SECRET_KEY=ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
 ```
-
-> [!CAUTION]
->
-> Always make sure your private key is within the .gitignore'd `.env` file, nowhere else! To be even safer, you can use a throw-away wallet, you can always transfer your claimed rewards to a main wallet afterwards.
 
 ### 4. Setup LLM Provider
 
@@ -160,15 +167,21 @@ OPENAI_API_KEY=<YOUR_KEY>
 
 #### For Ollama
 
-First you have to install [Ollama](#requirements), if you haven't already! The compute node is set to download any missing model automatically at the start by default. This is enabled via the `OLLAMA_AUTO_PULL=true` in `.env`.
+First you have to install [Ollama](#requirements), if you haven't already! The compute node is set to download any missing model automatically at the start by default.
 
-If you would like to disable this feature, set `OLLAMA_AUTO_PULL=false` and then continue reading this section, otherwise you can skip to [optional services](#optional-services).
+#### For Gemini
 
-First, you must **first pull a small embedding model that is used internally**.
+If you will be using OpenAI to serve its models, you need to have an API key in the environment. Simply set the key within your `.env`:
 
 ```sh
-ollama pull hellord/mxbai-embed-large-v1:f16
+GEMINI_API_KEY=<YOUR_KEY>
 ```
+
+> I Am using These
+> 5:- OpenAI | o1-mini
+> 10: Gemini | gemini-1.5-flash
+> 25: OpenRouter | qwq-32b-preview
+> 45: Ollama | llama3.2:1b
 
 For the models that you choose (see list of models just below [here](#1-choose-models)) you can download them with same command. Note that if your model size is large, pulling them may take a while. For example:
 
