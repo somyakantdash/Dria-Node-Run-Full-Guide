@@ -190,6 +190,13 @@ GEMINI_API_KEY=<YOUR_KEY>
 
 Points - https://steps.leaderboard.dria.co/
 
+### Check Your Ollama Status
+You can check the status of your Ollama it's active or not
+Make sure it is running. If it shows ‘exited,’ it means your Ollama is not running.
+```
+sudo systemctl status ollama
+```
+
 ## 🔶For Next Day Run This Command (Windows)
 
 #1 Open WSL and Put this Command 
