@@ -134,24 +134,6 @@ With our launcher, setting up the environment variables happen on the fly! The C
 
 This way, you won't have to manually do the copying and creating environment variables yourself, and instead let the CLI do it for you. You can move directly on to the [Usage](#usage) section.
 
-> [!NOTE]
->
-> `DKN_ADMIN_PUBLIC_KEY` is used to verify that the tasks are given by certain nodes, so that your node does not work for tasks given to the network by untrusted people. You don't need to change this, simply copy and paste it to your `.env`.
-
-> [!TIP]
->
-> While adding anything to your `.env`, you can do it without leaving the terminal. For example, suppose you want to set `VALUE` to some `KEY`, you can do it as:
->
-> ```sh
-> echo "KEY=VALUE" >> .env
-> ```
->
-> If you would like to view the `.env` without leaving the terminal, you can do:
->
-> ```sh
-> cat .env
-> ```
-
 ### 3. Prepare Ethereum Wallet
 
 Dria makes use of the same Ethereum wallet, that is the recipient of your hard-earned rewards! Place your private key at `DKN_WALLET_SECRET_KEY` in `.env` without the `0x` prefix. It should look something like:
