@@ -248,14 +248,14 @@ cd dkn-compute-node
 
 
 # Optional Update Node (If u Facing any Issue)
-## 1- Delete Old files
+## 1 Delete Old files
 ```
 cd $HOME
 rm -rf dkn-compute-node.zip
 rm -rf dkn-compute-node
 ```
 
-## 2- Stop Nodes and Stop Ollama Node
+## 2 Stop Nodes and Stop Ollama Node
 ```
 pgrep ollama
 ```
@@ -273,5 +273,5 @@ sudo systemctl disable ollama
 screen -XS dria quit
 ```
 
-## 3- Update and Rerun node
+## 3 Update and Rerun node
 Start from Step [Install Dria](https://github.com/somyakantdash/Dria-Node-Run-Full-Guide/)
