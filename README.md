@@ -73,6 +73,11 @@ Download the appropriate ZIP file for your system using the commands below or fr
    cd dkn-compute-node
    ```
 
+   Note - By Chance in ur System or VPS UNZIP software is not installed then installed first use above command
+   ```
+   sudo apt install unzip
+   ``` 
+
 > [!TIP]
 >
 > Some devices need you to bypass macOS's security warning. If you see "macOS cannot verify that this app is free from malware," when running the node use the following command:
@@ -110,6 +115,11 @@ Download the appropriate ZIP file for your system using the commands below or fr
    cd dkn-compute-node
    ```
 
+   Note - By Chance in ur System or VPS UNZIP software is not installed then installed first use above command
+   ```
+   sudo apt install unzip
+   ```
+
 #### Windows:
 
 1. Check your architecture:
@@ -137,6 +147,11 @@ Download the appropriate ZIP file for your system using the commands below or fr
    ```sh
    unzip dkn-compute-node.zip
    cd dkn-compute-node
+   ```
+
+   Note - By Chance in ur System or VPS UNZIP software is not installed then installed first use above command
+   ```
+   sudo apt install unzip
    ```
 
 ### 2. Prepare Environment Variables
@@ -230,3 +245,34 @@ cd dkn-compute-node
 ./dkn-compute-launcher
 ```
 #3 Setup LLM Provider
+
+
+## Optional Update Node (If u Facing any Issue)
+### 1- Delete Old files
+```
+cd $HOME
+rm -rf dkn-compute-node.zip
+rm -rf dkn-compute-node
+```
+
+### 2- Stop Nodes
+**Stop Ollama Node**
+```
+pgrep ollama
+```
+# Example: if 74877, then use
+kill 74877
+
+# THEN Stop Ollama
+```
+sudo systemctl stop ollama
+sudo systemctl disable ollama
+```
+
+**Stop Dria (Terminate screen for VPS)**
+```console
+screen -XS dria quit
+```
+
+### 3- Update and Rerun node
+Start from Step [Install Dria](https://github.com/somyakantdash/Dria-Node-Run-Full-Guide/edit/main/README.md)
