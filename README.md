@@ -247,23 +247,22 @@ cd dkn-compute-node
 #3 Setup LLM Provider
 
 
-## Optional Update Node (If u Facing any Issue)
-### 1- Delete Old files
+# Optional Update Node (If u Facing any Issue)
+## 1- Delete Old files
 ```
 cd $HOME
 rm -rf dkn-compute-node.zip
 rm -rf dkn-compute-node
 ```
 
-### 2- Stop Nodes
-**Stop Ollama Node**
+## 2- Stop Nodes and Stop Ollama Node
 ```
 pgrep ollama
 ```
-# Example: if 74877, then use
+### Example: if 74877, then use
 kill 74877
 
-# THEN Stop Ollama
+## THEN Stop Ollama
 ```
 sudo systemctl stop ollama
 sudo systemctl disable ollama
@@ -274,5 +273,5 @@ sudo systemctl disable ollama
 screen -XS dria quit
 ```
 
-### 3- Update and Rerun node
-Start from Step [Install Dria](https://github.com/somyakantdash/Dria-Node-Run-Full-Guide/edit/main/README.md)
+## 3- Update and Rerun node
+Start from Step [Install Dria](https://github.com/somyakantdash/Dria-Node-Run-Full-Guide/)
