@@ -37,7 +37,7 @@ For VPS Only
 apt install screen -y
 ```
 ```
-screen -S t3rn
+screen -S dria
 ```
 
 ### 1. Download Files
@@ -220,7 +220,7 @@ PRESS CTRL+A+D (to run ur node continuously)
 ```
 For VPS Only (to check ur node again)
 ```
-screen -r t3rn
+screen -r dria
 ```
 
 ### Check ur Points
