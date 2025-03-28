@@ -2,8 +2,10 @@
 
 **Minimum System Requirements**
 
-- 4GB RAM and 4 Cores
-- 10GB free disk space
+All Details - [Node Specifications](Node-Specs.md)
+
+- 8GB RAM and 8 Cores
+- 100GB or More free disk space
 - Reliable 100Mbps+ network bandwidth. Test it here: [Fast.com](https://fast.com/)
 
 
