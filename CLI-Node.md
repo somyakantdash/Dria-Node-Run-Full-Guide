@@ -59,6 +59,7 @@ DKN_WALLET_SECRET_KEY=ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4
 ### Models Menu
 
 When you select <kbd>Model</kbd> option in the Settings menu, you will be greeted with another menu:
+where you can navigate with arrow keys <kbd>↑</kbd> <kbd>↓</kbd> and select an option with enter <kbd>ENTER</kbd>
 
 ```py
 ? Choose model settings:
