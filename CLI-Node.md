@@ -32,11 +32,14 @@ screen -S dria
 curl -fsSL https://dria.co/launcher | bash
 ```
 
-3️⃣ Put Code
+3️⃣ Put Code (Optional)
 ```
 sudo dkn-compute-launcher referrals
 ```
 Use Up & Down Keys to Select "Enter Referral code to be referred" and Enter The Below Refer Code
+> [!NOTE]
+>
+> Each referral code only has 5 uses! Once you have referred 5 users, your code will no longer work.
 ```
 xxxxxxxxxxxx
 ```
