@@ -5,7 +5,6 @@
 ## Download Ollama Model
 
 - **Ollama models**: For VPS and WSL(in windows)
-
   ```
   curl -fsSL https://ollama.com/install.sh | sh
   ```
@@ -14,6 +13,9 @@
   ```
   ollama --version
   ```
+
+**Windows or Command Prompt (CMD)**
+Go: https://ollama.com/download
 
 1️⃣ Dependencies for WINDOWS & LINUX & VPS
 ```
@@ -29,27 +31,22 @@ apt install screen -y
 screen -S dria
 ```
 
-2️⃣ Download Some Files
+2️⃣ Download Some Files in WSL or Ubuntu
 ```
 curl -fsSL https://dria.co/launcher | bash
 ```
+**Windows or Command Prompt (CMD)**
+```
+powershell -c "irm https://dria.co/launcher.ps1 | iex"
+```
 
-3️⃣ Put Code (Optional)
-```
-sudo dkn-compute-launcher referrals
-```
-Use Up & Down Keys to Select "Enter Referral code to be referred" and Enter The Below Refer Code
-> [!NOTE]
->
-> Each referral code only has 5 uses! Once you have referred 5 users, your code will no longer work.
-```
-xxxxxxxxxxxx
-```
-Then Choose & Go Back
-
-4️⃣ Run a Node and Prepare Your Ethereum Wallet
+3️⃣ Run a Node and Prepare Your Ethereum Wallet
 ```
 sudo dkn-compute-launcher start
+```
+**Windows or Command Prompt (CMD)**
+```
+dkn-compute-launcher.exe start
 ```
 
 > Put Your Metamask Wallet Private Key
