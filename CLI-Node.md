@@ -155,7 +155,10 @@ sudo systemctl status ollama
 ```
 sudo dkn-compute-launcher start
 ```
-#2 Setup LLM Provider
+**Windows or Command Prompt (CMD)**
+```
+dkn-compute-launcher.exe start
+```
 
 
 # Optional Update Node (If u Facing any Issue)
