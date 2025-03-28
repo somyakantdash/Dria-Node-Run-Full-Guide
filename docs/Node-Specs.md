@@ -1,5 +1,7 @@
 #  # 🚀 LLM Node Runner's Guide: Minimum Specs
 
+### Offical Docs Guide - https://github.com/firstbatchxyz/dkn-compute-node/blob/master/docs/NODE_SPECS.md
+
 Hello, Drians! 👋 Here's a guide to help you understand the minimum specs needed for running different LLMs. We've broken it down into two main categories: (1) **GPU-enabled** nodes and (2) **CPU-only** nodes, as you can run your nodes on machines both _with_ or _without_ GPU.
 
 - ## 🖥️ GPU-Enabled Nodes
