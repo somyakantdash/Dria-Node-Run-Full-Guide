@@ -112,11 +112,7 @@ sudo systemctl status ollama
 ```
 sudo dkn-compute-launcher start
 ```
-#2 Run a Node and Prepare Your Ethereum Wallet
-```
-./dkn-compute-launcher
-```
-#3 Setup LLM Provider
+#2 Setup LLM Provider
 
 
 # Optional Update Node (If u Facing any Issue)
