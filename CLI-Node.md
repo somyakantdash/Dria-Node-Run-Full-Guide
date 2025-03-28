@@ -14,10 +14,12 @@
   ```
   ollama --version
   ```
-  
-## Setup
 
-To be able to run a node, we need to make a few simple preparations. Follow the steps below one by one.
+1️⃣ Dependencies for WINDOWS & LINUX & VPS
+```
+sudo apt update
+sudo apt upgrade -y
+```
 
 For VPS Only
 ```
@@ -27,7 +29,7 @@ apt install screen -y
 screen -S dria
 ```
 
-1️⃣ Download Some Files
+2️⃣ Download Some Files
 ```
 curl -fsSL https://dria.co/launcher | bash
 ```
@@ -103,7 +105,7 @@ Here, you can select a provider to choose models served by them, where you will 
 
 #### For Ollama
 
-First you have to install [Ollama](#requirements), if you haven't already! The compute node is set to download any missing model automatically at the start by default.
+First you have to install [Ollama](https://ollama.com/download), if you haven't already! The compute node is set to download any missing model automatically at the start by default.
 
 #### For Gemini
 
