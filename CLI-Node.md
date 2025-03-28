@@ -30,8 +30,22 @@ screen -S dria
 ```
 
 2️⃣ Download Some Files
-```
-curl -fsSL https://dria.co/launcher | bash
+1. Download the ZIP file using a web browser or in WSL:
+   ```
+   curl -L -o dkn-compute-node.zip https://github.com/firstbatchxyz/dkn-compute-launcher/releases/latest/download/dkn-compute-launcher-linux-amd64.zip
+   ```
+2. Unzip the downloaded file using File Explorer or in WSL:
+   ```sh
+   unzip dkn-compute-node.zip
+   cd dkn-compute-node
+   ```
+   Note - By Chance in ur System or VPS UNZIP software is not installed then installed first use above command
+   ```
+   sudo apt install unzip
+   ```
+```sh
+# windows
+./dkn-compute-launcher
 ```
 
 3️⃣ Put Code (Optional)
