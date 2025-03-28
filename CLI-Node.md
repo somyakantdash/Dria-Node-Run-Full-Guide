@@ -56,7 +56,46 @@ DKN_WALLET_SECRET_KEY=ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4
 
 5️⃣ Setup LLM Provider [Get Your API Key](docs/Top-LLM-Models.md)
 
-For the final step, choose your LLM Models & download it.
+### Models Menu
+
+When you select <kbd>Model</kbd> option in the Settings menu, you will be greeted with another menu:
+
+```py
+? Choose model settings:
+> Edit model selection
+  List chosen models
+  Remove local models
+  Measure local models
+```
+
+#### Selecting Models
+
+Click on `Edit model selection` to select models for your node.
+
+```sh
+? Select a model provider:
+> ollama
+  openai
+  gemini
+  openrouter
+  VLLM
+  ← Go Back
+```
+
+Here, you can select a provider to choose models served by them, where you will be greeted with the following menu:
+
+```sh
+> Select a model provider: openai
+? Choose your models with SPACE, then press ENTER:
+  [ ] gpt-4-turbo
+  [x] gpt-4o
+> [ ] gpt-4o-mini
+  [ ] o1-mini
+  [ ] o1-preview
+  [ ] o1
+  [ ] o3-mini
+# ...
+```
 
 #### For Ollama
 
