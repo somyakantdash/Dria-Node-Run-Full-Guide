@@ -109,11 +109,10 @@ First you have to install [Ollama](https://ollama.com/download), if you haven't 
 
 #### For Gemini
 
-If you will be using OpenAI to serve its models, you need to have an API key in the environment.
-
 ```
 GEMINI_API_KEY=<YOUR_KEY>
 ```
+Free on OpenRouter but also offers a paid plan. Provides up to 1,500 free requests daily with no cost and doesn’t require VPS resources. Powered by Google’s API. Get your Google API here. https://aistudio.google.com/app/apikey
 
 > I Am using These (CPU device only)
 > 
