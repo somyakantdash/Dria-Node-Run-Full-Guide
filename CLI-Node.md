@@ -1,5 +1,7 @@
 # Dria-Node-Run-Full-Guide
 
+### Offical Docs Guide - https://firstbatch.notion.site/How-to-Run-a-Dria-Node-4529a889692940ca8514427cc5ea4c70
+
 ## Download Ollama Model
 
 - **Ollama models**: For VPS and WSL(in windows)
