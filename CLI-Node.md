@@ -69,14 +69,21 @@ GEMINI_API_KEY=<YOUR_KEY>
 ```
 
 > I Am using These (CPU device only)
+> 
 > Gemini | gemini-1.5-flash | gemini-1.5-pro
+> 
 > Ollama | llama3.2:1b
 
 > For GPU Device Only
+> 
 > Ollama | qwen2.5:7b-instruct-fp16
+> 
 > Ollama | llama3.1:8b-instruct-fp16
+> 
 > Ollama | deepseek-r1:1.5b
+> 
 > Open AI | gpt-4o (paid)
+> 
 > Meta | meta-llama/llama-3.1-8b-instruct (paid)
 
 For VPS Only
