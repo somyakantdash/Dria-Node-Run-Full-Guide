@@ -43,8 +43,7 @@ screen -S dria
    ```
    sudo apt install unzip
    ```
-```sh
-# windows
+```
 ./dkn-compute-launcher
 ```
 
