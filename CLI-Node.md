@@ -111,17 +111,21 @@ GEMINI_API_KEY=<YOUR_KEY>
 ```
 Free on OpenRouter but also offers a paid plan. Provides up to 1,500 free requests daily with no cost and doesn’t require VPS resources. Powered by Google’s API. Get your Google API here. https://aistudio.google.com/app/apikey
 
-> I Am using These (CPU device only)
+> I Am using These (CPU & GPU Both Deevice)
 > 
 > Gemini | gemini-1.5-flash | gemini-1.5-pro
 > 
 > Ollama | llama3.2:1b
+>
+> Ollama | deepseek-r1:1.5b
 
 > For GPU Device Only
 > 
 > Ollama | qwen2.5:7b-instruct-fp16
 > 
 > Ollama | llama3.1:8b-instruct-fp16
+>
+> Ollama | deepseek-r1:1.5b
 > 
 > Ollama | deepseek-r1:1.5b
 > 
