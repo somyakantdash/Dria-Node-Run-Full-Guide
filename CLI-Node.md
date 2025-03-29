@@ -166,10 +166,14 @@ dkn-compute-launcher.exe start
 
 
 # Optional Update Node (If u Facing any Issue)
-## 1 Delete Old files
+## 1 Delete Old files in WSL
 ```
 cd $HOME
 rm -rf .dria
+```
+**Windows or Command Prompt (CMD)**
+```
+rd /s /q "%USERPROFILE%\.dria"
 ```
 ### Extra
 ```
